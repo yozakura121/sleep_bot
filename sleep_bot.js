@@ -15,7 +15,7 @@ client.on('message', message => {
     if (message.content === "おやすみ") {
         let channel = message.channel;
         let author = message.author.channel;
-        let reply_text = "おやす";
+        let reply_text = "おやすみ";
         message.reply(reply_text)
             .then(message => console.log(`ok:${reply_text}`))
             .catch(console.error);
